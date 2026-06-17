@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mind Training — Entrena la mente. Transforma el cuerpo.</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav>
+  <a href="#" class="nav-logo">Mind Training</a>
+  <div class="nav-links">
+    <a href="#suplementos">Suplementos</a>
+    <a href="#planes">Planes</a>
+    <a href="#alimentacion">Alimentación</a>
+    <a href="#faq">FAQ</a>
+  </div>
+  <a href="https://wa.me/573222470259" target="_blank" class="nav-wa">WhatsApp →</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="section-inner">
+    <p class="hero-eyebrow">✦ Mind Training ✦</p>
+    <h1 class="hero-title">Entrena tu <em>mente.</em><br>Transforma tu cuerpo.</h1>
+
+    <div class="gancho-list">
+      <div class="gancho-item">
+        <span class="gancho-icon">🧠</span>
+        <p class="gancho-text"><strong>¿Quieres tener claridad mental</strong> y dejar de sentir que tu cabeza está en mil lugares?</p>
+      </div>
+      <div class="gancho-item">
+        <span class="gancho-icon">😮‍💨</span>
+        <p class="gancho-text"><strong>¿La ansiedad y los pensamientos intrusivos</strong> no te dejan avanzar ni disfrutar el día?</p>
+      </div>
+      <div class="gancho-item">
+        <span class="gancho-icon">💔</span>
+        <p class="gancho-text"><strong>¿Saliste de una relación</strong> y sientes que perdiste el enfoque y las ganas de hacer cosas?</p>
+      </div>
+      <div class="gancho-item">
+        <span class="gancho-icon">⚡</span>
+        <p class="gancho-text"><strong>¿Quieres más agilidad y energía</strong> pero no sabes por dónde empezar?</p>
+      </div>
+      <div class="gancho-item">
+        <span class="gancho-icon">🏋️</span>
+        <p class="gancho-text"><strong>¿Quieres entrenar</strong> pero no tienes gimnasio, equipos ni tiempo?</p>
+      </div>
+    </div>
+
+    <div class="hero-solution">
+      Para todo eso existe <strong>Mind Training</strong>.<br>
+      Entrenamiento del cuerpo + suplementación consciente + alimentación que nutre tu mente.
+    </div>
+
+    <div class="hero-ctas">
+      <a href="#suplementos" class="btn-primary">Ver suplementos</a>
+      <a href="#planes" class="btn-ghost">Ver planes</a>
+    </div>
+  </div>
+</section>
+
+
+<div class="stats">
+  <div class="stat-item">
+    <span class="stat-num">3</span>
+    <p class="stat-label">Adaptógenos 100% naturales</p>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">0</span>
+    <p class="stat-label">Equipos necesarios para entrenar</p>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">∞</span>
+    <p class="stat-label">Lugares donde puedes practicarlo</p>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">24h</span>
+    <p class="stat-label">Despacho en Colombia</p>
+  </div>
+</div>
+
+
+<section id="suplementos">
+  <div class="section-inner">
+    <p class="eyebrow">Suplementos</p>
+    <h2 class="section-title">Adaptógenos que trabajan<br>mente y cuerpo</h2>
+    <p class="section-sub">Tres hongos y plantas con siglos de uso. Cada uno tiene un propósito concreto: energía, enfoque o recuperación.</p>
+
+    <div class="supp-grid">
+      <div class="supp-card">
+        <div class="supp-emoji">🍄</div>
+        <h3 class="supp-name">Cordyceps</h3>
+        <p class="supp-latin">Cordyceps militaris</p>
+        <ul class="supp-benefits">
+          <li>Energía y resistencia</li>
+          <li>Mejora el VO2 máx</li>
+          <li>Anti-fatiga</li>
+          <li>Rendimiento físico</li>
+        </ul>
+        <p class="supp-price">$85.000 <span>COP / mes</span></p>
+        <button class="btn-add" onclick="addItem('Cordyceps', 85000, this)">+ Agregar al pedido</button>
+      </div>
+
+      <div class="supp-card featured">
+        <div class="supp-badge">Más pedido</div>
+        <div class="supp-emoji">🦁</div>
+        <h3 class="supp-name">Melena de León</h3>
+        <p class="supp-latin">Hericium erinaceus</p>
+        <ul class="supp-benefits">
+          <li>Enfoque y memoria</li>
+          <li>Nerve Growth Factor</li>
+          <li>Calma la ansiedad</li>
+          <li>Claridad mental</li>
+        </ul>
+        <p class="supp-price">$90.000 <span>COP / mes</span></p>
+        <button class="btn-add" onclick="addItem('Melena de León', 90000, this)">+ Agregar al pedido</button>
+      </div>
+
+      <div class="supp-card">
+        <div class="supp-emoji">🌿</div>
+        <h3 class="supp-name">Ashwagandha</h3>
+        <p class="supp-latin">Withania somnifera</p>
+        <ul class="supp-benefits">
+          <li>Controla el cortisol</li>
+          <li>Reduce estrés crónico</li>
+          <li>Mejora el sueño</li>
+          <li>Recuperación muscular</li>
+        </ul>
+        <p class="supp-price">$75.000 <span>COP / mes</span></p>
+        <button class="btn-add" onclick="addItem('Ashwagandha', 75000, this)">+ Agregar al pedido</button>
+      </div>
+    </div>
+
+    <div class="stack-tip">
+      <span>💡</span>
+      <p><strong>Stack recomendado:</strong> Melena de León + Ashwagandha en la mañana para enfoque sin ansiedad. Cordyceps 30 min antes de entrenar para energía limpia, sin cafeína.</p>
+    </div>
+  </div>
+</section>
+
+
+<section id="planes">
+  <div class="section-inner">
+    <p class="eyebrow">Planes</p>
+    <h2 class="section-title">Entrenamiento + Alimentación.<br>Todo incluido.</h2>
+    <p class="section-sub">Sin gimnasio, sin equipos. Solo tu cuerpo y las ganas. Casa, playa, parque — donde estés.</p>
+
+    <div class="planes-grid">
+      <div class="plan-card">
+        <div class="plan-icon">🏋️</div>
+        <h3 class="plan-name">Plan Entrenamiento</h3>
+        <p class="plan-type">PDF descargable · Acceso inmediato</p>
+        <ul class="plan-features">
+          <li>4 semanas de entrenamiento estructurado</li>
+          <li>Rutinas de 30–45 min al día</li>
+          <li>Sin equipos — cuerpo libre</li>
+          <li>Adaptable a todos los niveles</li>
+          <li>Casa, playa o parque</li>
+          <li>Guía de calentamiento y movilidad</li>
+          <li>Protocolo de recuperación activa</li>
+        </ul>
+        <p class="plan-price">$49.000 <span>COP · pago único</span></p>
+        <button class="btn-add" onclick="addItem('Plan Entrenamiento', 49000, this)">+ Agregar al pedido</button>
+      </div>
+
+      <div class="plan-card">
+        <div class="plan-icon">🥑</div>
+        <h3 class="plan-name">Guía de Alimentación</h3>
+        <p class="plan-type">PDF descargable · Nutrición para la mente</p>
+        <ul class="plan-features">
+          <li>Alimentación anti-inflamatoria</li>
+          <li>Alimentos que reducen ansiedad</li>
+          <li>Plan semanal de comidas simple</li>
+          <li>Lista de mercado lista para usar</li>
+          <li>Recetas rápidas y económicas</li>
+          <li>Qué comer pre y post entrenamiento</li>
+          <li>Hábitos de hidratación y descanso</li>
+        </ul>
+        <p class="plan-price">$39.000 <span>COP · pago único</span></p>
+        <button class="btn-add" onclick="addItem('Guía de Alimentación', 39000, this)">+ Agregar al pedido</button>
+      </div>
+
+      <div class="plan-card best">
+        <div class="plan-badge">Mejor valor</div>
+        <div class="plan-icon">⚡</div>
+        <h3 class="plan-name">Pack Completo</h3>
+        <p class="plan-type">Entrenamiento + Alimentación</p>
+        <ul class="plan-features">
+          <li>Todo del Plan Entrenamiento</li>
+          <li>Todo de la Guía de Alimentación</li>
+          <li>Stack de suplementación recomendado</li>
+          <li>Soporte directo por WhatsApp</li>
+        </ul>
+        <p class="plan-price"><span class="was">$88.000</span>$70.000 <span>COP</span></p>
+        <p class="plan-save">Ahorras $18.000 COP</p>
+        <button class="btn-add" onclick="addPack(this)">✓ Agregar Pack Completo</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="alimentacion">
+  <div class="section-inner">
+    <p class="eyebrow">Alimentación consciente</p>
+    <h2 class="section-title">Come para tu mente,<br>no solo para tu cuerpo</h2>
+    <p class="section-sub">Incluye un plan de alimentacion enfocado en tu cuerpo    </p>
+  </div>
+</section>
+
+
+<section id="testimonios">
+  <div class="section-inner">
+    <p class="eyebrow">Testimonios</p>
+    <h2 class="section-title">Lo que dicen</h2>
+
+    <div class="testi-grid">
+      <div class="testi-card">
+        <p class="stars">★★★★★</p>
+        <p class="testi-text">"severo."</p>
+        <p class="testi-author">Camila R. · Bogotá</p>
+      </div>
+      <div class="testi-card">
+        <p class="stars">★★★★★</p>
+        <p class="testi-text">"que chimba."</p>
+        <p class="testi-author">Sebastián M. · Cartagena</p>
+      </div>
+      <div class="testi-card">
+        <p class="stars">★★★★★</p>
+        <p class="testi-text">"omg."</p>
+        <p class="testi-author">Valentina G. · Medellín</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="faq">
+  <div class="section-inner">
+    <p class="eyebrow">Preguntas frecuentes</p>
+    <h2 class="section-title">¿Tienes dudas?</h2>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <p class="faq-q" onclick="toggleFaq(this)">¿Cómo funciona el proceso de compra?</p>
+        <p class="faq-a">Agrega los productos al carrito, haz clic en "Pedir por WhatsApp" y te llegará un mensaje listo con tu pedido. Andrés te confirmará la disponibilidad, el método de pago y el despacho.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q" onclick="toggleFaq(this)">¿Los suplementos son naturales?</p>
+        <p class="faq-a">Sí. Cordyceps, Melena de León y Ashwagandha son hongos y plantas adaptógenas 100% naturales, sin aditivos ni estimulantes artificiales. Llevan milenios de uso en medicina tradicional.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q" onclick="toggleFaq(this)">¿El plan de entrenamiento es para principiantes?</p>
+        <p class="faq-a">Está diseñado para todos los niveles. Incluye progresión por semanas y modificaciones para que sea más fácil o más intenso según tu punto de partida.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q" onclick="toggleFaq(this)">¿Cuánto tarda el envío de los suplementos?</p>
+        <p class="faq-a">El despacho se hace dentro de las 24 horas siguientes a la confirmación del pago. El tiempo de entrega depende de tu ciudad — generalmente 1 a 3 días hábiles en Colombia.</p>
+      </div>
+      <div class="faq-item">
+        <p class="faq-q" onclick="toggleFaq(this)">¿Los PDFs se entregan inmediatamente?</p>
+        <p class="faq-a">Sí. Una vez confirmado el pago, te enviamos los archivos directamente por WhatsApp. Acceso inmediato.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <p class="footer-logo">Mind Training</p>
+  <p class="footer-tagline">Entrena la mente. Transforma el cuerpo.</p>
+  <div class="footer-links">
+    <a href="#faq">Preguntas frecuentes</a>
+    <a href="https://wa.me/573222470259" target="_blank">WhatsApp</a>
+    <a href="#">Instagram</a>
+  </div>
+  <p style="font-size:0.75rem; color: var(--cream-muted); margin-top: 0.5rem;">© 2026 Mind Training · Colombia</p>
+</footer>
+
+
+<div class="cart-bar" id="cartBar">
+  <div class="cart-info">
+    <span class="cart-items-label" id="cartLabel">0 productos en tu pedido</span>
+    <span class="cart-total" id="cartTotal">$0 COP</span>
+  </div>
+  <a id="waBtn" href="#" target="_blank" class="btn-wa">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.558 4.126 1.529 5.861L.057 23.7a.75.75 0 00.918.942l5.98-1.56A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.75a9.717 9.717 0 01-4.94-1.349l-.354-.212-3.676.959.984-3.576-.231-.371A9.716 9.716 0 012.25 12C2.25 6.615 6.615 2.25 12 2.25S21.75 6.615 21.75 12 17.385 21.75 12 21.75z"/></svg>
+    Pedir por WhatsApp
+  </a>
+</div>
+
+<script>
+const WA_NUMBER = '573222470259';
+const cart = {};
+
+function formatCOP(n) {
+  return '$' + n.toLocaleString('es-CO') + ' COP';
+}
+
+function updateCart() {
+  const items = Object.values(cart);
+  const total = items.reduce((s, i) => s + i.price, 0);
+  const bar = document.getElementById('cartBar');
+  const label = document.getElementById('cartLabel');
+  const totalEl = document.getElementById('cartTotal');
+
+  if (items.length === 0) {
+    bar.classList.remove('visible');
+    return;
+  }
+
+  bar.classList.add('visible');
+  label.textContent = items.length === 1 ? '1 producto en tu pedido' : items.length + ' productos en tu pedido';
+  totalEl.textContent = formatCOP(total);
+
+  const lines = items.map(i => '• ' + i.name + ': ' + formatCOP(i.price)).join('%0A');
+  const msg = 'Hola! Quiero hacer el siguiente pedido desde Mind Training:%0A%0A' + lines + '%0A%0ATotal: ' + formatCOP(total);
+  document.getElementById('waBtn').href = 'https://wa.me/' + WA_NUMBER + '?text=' + msg;
+}
+
+function addItem(name, price, btn) {
+  if (cart[name]) {
+    delete cart[name];
+    btn.textContent = '+ Agregar al pedido';
+    btn.classList.remove('added');
+  } else {
+    cart[name] = { name, price };
+    btn.textContent = '✓ Agregado';
+    btn.classList.add('added');
+  }
+  updateCart();
+}
+
+function addPack(btn) {
+  const packItems = ['Plan Entrenamiento', 'Guía de Alimentación'];
+
+  packItems.forEach(k => {
+    if (cart[k]) {
+      delete cart[k];
+      document.querySelectorAll('.btn-add').forEach(b => {
+        if (b.getAttribute('onclick') && b.getAttribute('onclick').includes(k.replace('Plan ', '').replace('Guía de ', ''))) {
+          b.textContent = '+ Agregar al pedido';
+          b.classList.remove('added');
+        }
+      });
+    }
+  });
+
+  if (cart['Pack Completo']) {
+    delete cart['Pack Completo'];
+    btn.textContent = '✓ Agregar Pack Completo';
+    btn.classList.remove('added');
+  } else {
+    cart['Pack Completo'] = { name: 'Pack Completo (Entrenamiento + Alimentación)', price: 70000 };
+    btn.textContent = '✓ Pack agregado';
+    btn.classList.add('added');
+  }
+  updateCart();
+}
+
+function toggleFaq(el) {
+  const ans = el.nextElementSibling;
+  el.classList.toggle('open');
+  ans.classList.toggle('open');
+}
+</script>
+</body>
+</html>
